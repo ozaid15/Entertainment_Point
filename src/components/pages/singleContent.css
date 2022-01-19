@@ -1,0 +1,40 @@
+.singleComponent {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+    background-color: #282c34;
+    margin: 5px 0px;
+    cursor: pointer;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+.singleComponent:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 550px) {
+    .singleComponent{
+        width: 46%;
+    }
+}
+
+.poster{
+    border-radius: 10px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0px;
+}
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2px;
+    padding-bottom: 3px;
+}
